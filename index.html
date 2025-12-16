@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRON PULSE | Premium Fitness & Gym</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Placeholder for FontAwesome -->
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">IRON <span class="highlight">PULSE</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#timetable">Timetable</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="login.html" class="btn-primary">Join Now</a></li>
+
+
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Forged in <span class="highlight">Sweat</span></h1>
+            <p>Elevate your potential with world-class equipment and expert trainers.</p>
+            <div class="hero-btns">
+                <a href="#timetable" class="btn-primary">View Timetable</a>
+                <a href="#about" class="btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose <span class="highlight">Iron Pulse</span></h2>
+                <p>More than just a gym. We are a community dedicated to strength and wellness.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Premium Equipment</h3>
+                    <p>State-of-the-art machines and free weights for every muscle group.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Expert Trainers</h3>
+                    <p>Certified professionals to guide your fitness journey.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>24/7 Access</h3>
+                    <p>Train on your schedule, day or night.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classes Section -->
+    <section id="classes" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="highlight">Classes</span></h2>
+            </div>
+            <div class="classes-grid">
+                <div class="class-card" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=800&q=80');">
+                    <h3>HIIT</h3>
+                    <p>High Intensity Interval Training to burn fat fast.</p>
+                </div>
+                <div class="class-card" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1599058945522-28d584b6f0ff?auto=format&fit=crop&w=800&q=80');">
+                    <h3>Powerlifting</h3>
+                    <p>Build raw strength with heavy compound lifts.</p>
+                </div>
+                <div class="class-card" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80');">
+                    <h3>Yoga Flow</h3>
+                    <p>Enhance flexibility and recovery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timetable Section -->
+    <section id="timetable" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Weekly <span class="highlight">Schedule</span></h2>
+            </div>
+            
+            <div class="timetable-controls">
+                <button class="day-btn active" data-day="monday">Mon</button>
+                <button class="day-btn" data-day="tuesday">Tue</button>
+                <button class="day-btn" data-day="wednesday">Wed</button>
+                <button class="day-btn" data-day="thursday">Thu</button>
+                <button class="day-btn" data-day="friday">Fri</button>
+                <button class="day-btn" data-day="saturday">Sat</button>
+                <button class="day-btn" data-day="sunday">Sun</button>
+            </div>
+
+            <div class="timetable-wrapper">
+                <!-- Monday -->
+                <div class="timetable-day active" id="monday">
+                    <div class="time-slot">
+                        <span class="time">06:00 AM</span>
+                        <span class="class-name">Morning Yoga</span>
+                        <span class="trainer">Sarah J.</span>
+                    </div>
+                    <div class="time-slot">
+                        <span class="time">09:00 AM</span>
+                        <span class="class-name">CrossFit</span>
+                        <span class="trainer">Mike T.</span>
+                    </div>
+                    <div class="time-slot">
+                        <span class="time">05:00 PM</span>
+                        <span class="class-name">Boxing</span>
+                        <span class="trainer">Alex R.</span>
+                    </div>
+                    <div class="time-slot">
+                        <span class="time">07:00 PM</span>
+                        <span class="class-name">HIIT Blast</span>
+                        <span class="trainer">Jessica K.</span>
+                    </div>
+                </div>
+
+                <!-- Tuesday -->
+                <div class="timetable-day" id="tuesday">
+                    <div class="time-slot">
+                        <span class="time">07:00 AM</span>
+                        <span class="class-name">Spin Class</span>
+                        <span class="trainer">David L.</span>
+                    </div>
+                    <div class="time-slot">
+                        <span class="time">06:00 PM</span>
+                        <span class="class-name">Zumba</span>
+                        <span class="trainer">Maria G.</span>
+                    </div>
+                    <div class="time-slot">
+                        <span class="time">08:00 PM</span>
+                        <span class="class-name">Power Lifting</span>
+                        <span class="trainer">Big Rob</span>
+                    </div>
+                </div>
+
+                <!-- Wednesday (Placeholder for other days to save space, JS will handle logic if needed, but static for now) -->
+                <div class="timetable-day" id="wednesday">
+                    <div class="time-slot"><span class="time">06:00 AM</span><span class="class-name">Cardio Blast</span><span class="trainer">Sarah J.</span></div>
+                    <div class="time-slot"><span class="time">05:30 PM</span><span class="class-name">Pilates</span><span class="trainer">Emma W.</span></div>
+                </div>
+                <div class="timetable-day" id="thursday">
+                    <div class="time-slot"><span class="time">07:00 AM</span><span class="class-name">Strength 101</span><span class="trainer">Mike T.</span></div>
+                    <div class="time-slot"><span class="time">06:30 PM</span><span class="class-name">Kickboxing</span><span class="trainer">Alex R.</span></div>
+                </div>
+                <div class="timetable-day" id="friday">
+                    <div class="time-slot"><span class="time">06:00 AM</span><span class="class-name">Yoga Flow</span><span class="trainer">Sarah J.</span></div>
+                    <div class="time-slot"><span class="time">05:00 PM</span><span class="class-name">Full Body</span><span class="trainer">Jessica K.</span></div>
+                </div>
+                <div class="timetable-day" id="saturday">
+                    <div class="time-slot"><span class="time">09:00 AM</span><span class="class-name">Weekend Warrior</span><span class="trainer">All Trainers</span></div>
+                    <div class="time-slot"><span class="time">11:00 AM</span><span class="class-name">Open Gym</span><span class="trainer">Staff</span></div>
+                </div>
+                <div class="timetable-day" id="sunday">
+                    <div class="time-slot"><span class="time">10:00 AM</span><span class="class-name">Recovery Session</span><span class="trainer">Emma W.</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Membership Section -->
+    <section id="membership" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2>Join the <span class="highlight">Club</span></h2>
+            </div>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Basic</h3>
+                    <div class="price">$29<span>/mo</span></div>
+                    <ul>
+                        <li>Gym Access</li>
+                        <li>Locker Room</li>
+                        <li>Free WiFi</li>
+                    </ul>
+                    <a href="#" class="btn-secondary">Select Plan</a>
+                </div>
+                <div class="price-card featured">
+                    <div class="badge">Best Value</div>
+                    <h3>Pro</h3>
+                    <div class="price">$59<span>/mo</span></div>
+                    <ul>
+                        <li>All Basic Features</li>
+                        <li>Unlimited Classes</li>
+                        <li>Guest Pass</li>
+                    </ul>
+                    <a href="#" class="btn-primary">Select Plan</a>
+                </div>
+                <div class="price-card">
+                    <h3>Elite</h3>
+                    <div class="price">$99<span>/mo</span></div>
+                    <ul>
+                        <li>All Pro Features</li>
+                        <li>Personal Training (2x/mo)</li>
+                        <li>Nutrition Plan</li>
+                    </ul>
+                    <a href="#" class="btn-secondary">Select Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>IRON PULSE</h2>
+                    <p>123 Fitness Blvd, Muscle City, MC 90210</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="social-links">
+                    <a href="#">FB</a>
+                    <a href="#">IG</a>
+                    <a href="#">TW</a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2025 Iron Pulse Gym. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
